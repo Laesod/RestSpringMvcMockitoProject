@@ -1,27 +1,25 @@
-#RestSpringMvcMockitoProject
+# SpringRestMvcMockitoApp
 
-[![Build Status](https://travis-ci.org/fdlessard/RestSpringMvcMockitoProject.svg)](https://travis-ci.org/fdlessard/RestSpringMvcMockitoProject)
-[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/fdlessard/RestSpringMvcMockitoProject/blob/master/LICENSE)
-
-This is just a small Rest application that displays a hello world string and dummy orders. It show how to do unit test with "full mocking" using MockMvc and the Mockito framework.
+[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/fdlessard/maven_template_app/blob/master/LICENSE)
 
 Run the tests:
 ===
 
 $ mvn test
 
-Start application server:
+
+
+Start the tomcat application server:
 ===
 
-- On tomcat:  mvn clean install tomcat7:run
+mvn clean install tomcat7:run
 
-- On Jetty:  vmvn clean install jetty:run
+mvn clean install jetty:run
 
 
-Url of the application:
+Url of the Application:
 ===
 
-- http://localhost:8080/RestSpringMvcMockitoApp/hello
-- http://localhost:8080/RestSpringMvcMockitoApp/order/0
-- http://localhost:8080/RestSpringMvcMockitoApp/orders
+http://localhost:8080/SpringRestMvcMockitoApp/hello
 
+# SpringRestMvcMockitoApp
